@@ -9,158 +9,124 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="0dp"
+        android:layout_width="379dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="75dp"
-        android:layout_marginEnd="4dp"
         android:text="Menu"
         android:textAlignment="center"
         android:textColor="#F60000"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
 
     <EditText
-        android:id="@+id/descripcion"
-        android:layout_width="0dp"
+        android:id="@+id/txtdescripcion"
+        android:layout_width="353dp"
         android:layout_height="83dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="51dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="45dp"
         android:autofillHints=""
         android:hint="Descripcion del plato"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:singleLine="false"
         android:textColorHint="#757575"
-        app:layout_constraintBottom_toBottomOf="@+id/precio"
-        app:layout_constraintEnd_toEndOf="@+id/precio"
-        app:layout_constraintStart_toStartOf="@+id/precio"
-        app:layout_constraintTop_toTopOf="@+id/referencia" />
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="250dp" />
 
     <EditText
         android:id="@+id/txtnombreplato"
-        android:layout_width="0dp"
+        android:layout_width="151dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
         android:autofillHints=""
         android:hint="Ingrese el nombre"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:singleLine="false"
         android:textColorHint="#757575"
-        app:layout_constraintEnd_toEndOf="@+id/referencia"
-        app:layout_constraintStart_toStartOf="@+id/referencia"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="154dp" />
 
     <ListView
         android:id="@+id/listaplatosdia"
-        android:layout_width="0dp"
+        android:layout_width="355dp"
         android:layout_height="152dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="63dp"
-        app:layout_constraintBottom_toBottomOf="@+id/button1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/precio" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="345dp" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/lstvcarta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="13dp"
-        android:layout_marginBottom="32dp"
         android:text="Precio"
-        app:layout_constraintBottom_toBottomOf="@+id/precio"
-        app:layout_constraintStart_toStartOf="@+id/precio" />
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="92dp" />
 
     <EditText
-        android:id="@+id/precio"
-        android:layout_width="0dp"
+        android:id="@+id/txtprecio"
+        android:layout_width="355dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
         android:autofillHints=""
         android:hint="Digite el precio"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:singleLine="false"
         android:textColorHint="#757575"
-        app:layout_constraintEnd_toEndOf="@+id/listaplatosdia"
-        app:layout_constraintStart_toStartOf="@+id/listaplatosdia"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="43dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="47dp"
-        android:layout_marginBottom="16dp"
         android:onClick="PedidosRestaurante"
         android:text="Omitir"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="526dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="13dp"
         android:text="Descripcion"
-        app:layout_constraintStart_toStartOf="@+id/referencia"
-        app:layout_constraintTop_toBottomOf="@+id/referencia" />
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="12dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="21dp"
         android:text="Referencia"
-        app:layout_constraintStart_toStartOf="@+id/txtnombreplato"
-        app:layout_constraintTop_toBottomOf="@+id/txtnombreplato" />
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="202dp" />
 
     <EditText
-        android:id="@+id/referencia"
-        android:layout_width="0dp"
+        android:id="@+id/txtreferencia"
+        android:layout_width="355dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="16dp"
         android:autofillHints=""
         android:hint="Digite la referencia"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:singleLine="false"
         android:textColorHint="#757575"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtnombreplato" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="204dp" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="34dp"
-        android:layout_marginBottom="17dp"
         android:onClick="InicioRun"
         android:text="Regresar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/listaplatosdia" />
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="525dp" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="21dp"
-        android:layout_marginBottom="31dp"
         android:text="Nombre del plato"
-        app:layout_constraintBottom_toBottomOf="@+id/txtnombreplato"
-        app:layout_constraintStart_toStartOf="@+id/txtnombreplato" />
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="152dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
