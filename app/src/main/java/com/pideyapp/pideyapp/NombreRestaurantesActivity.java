@@ -35,5 +35,10 @@ public class NombreRestaurantesActivity extends AppCompatActivity {
         startActivity(regresarIncioSesions);
     }
 
+    public void CartaDelDia(View view){
+        Intent  cartaDelDias = new Intent(NombreRestaurantesActivity.this,cartaDelDia.class);
+        startActivity(cartaDelDias);
+    }
+
 
 }

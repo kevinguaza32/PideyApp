@@ -20,7 +20,7 @@ public class MainActivityRestaurante extends AppCompatActivity {
     }
 
     public void IniciarsesionNombrerestactivity(View view){
-        Intent iniciarsesionNombrerestactivitys = new Intent(MainActivityRestaurante.this,NombreRestaurantesActivity.class);
+        Intent iniciarsesionNombrerestactivitys = new Intent(MainActivityRestaurante.this,cartaDelDia.class);
         startActivity(iniciarsesionNombrerestactivitys);
     }
 
