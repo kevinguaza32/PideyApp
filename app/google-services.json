@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "784845168674-2ldcg2naktj1j6hh06eu9gsmuibeuej0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pideyapp.pideyapp",
+            "certificate_hash": "96b6d7ce4cc8478b6aa522fd908838b008e6554d"
+          }
+        },
+        {
           "client_id": "784845168674-06v4ec4n3c1ffq3ighj81es6pq88p2v2.apps.googleusercontent.com",
           "client_type": 3
         }

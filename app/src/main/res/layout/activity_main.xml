@@ -37,11 +37,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
-        android:id="@+id/txtEmail"
+        android:id="@+id/txtEmailUsuarioingreso"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="54dp"
-        android:layout_marginTop="2dp"
         android:layout_marginEnd="54dp"
         android:autofillHints=""
         android:hint="Ingrese su email"
@@ -49,18 +48,18 @@
         android:minHeight="48dp"
         android:singleLine="false"
         android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView3" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="29dp"
+        android:layout_marginBottom="30dp"
         android:text="Email"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintStart_toStartOf="@+id/txtEmail"
+        app:layout_constraintStart_toStartOf="@+id/txtEmailUsuarioingreso"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
@@ -82,16 +81,16 @@
         android:layout_marginBottom="13dp"
         android:text="Olvide mi constraseña"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
-        app:layout_constraintEnd_toEndOf="@+id/txtPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btningresarUsuario"
+        app:layout_constraintEnd_toEndOf="@+id/txtcontraseñaUsuarioingreso"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/txtPassword"
+        android:id="@+id/txtcontraseñaUsuarioingreso"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="52dp"
         android:autofillHints=""
         android:ems="10"
@@ -101,7 +100,7 @@
         android:textColorHint="#757575"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
 
 
     <Button
@@ -114,10 +113,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+        app:layout_constraintTop_toBottomOf="@+id/btningresarUsuario" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btningresarUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"

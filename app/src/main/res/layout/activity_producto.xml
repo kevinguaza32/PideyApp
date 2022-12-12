@@ -9,13 +9,15 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="242dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="9dp"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logopideyap" />
 
@@ -23,64 +25,42 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="74dp"
         android:text="Producto"
         android:textColor="#F60000"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView9"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <View
-        android:id="@+id/divider1"
-        android:layout_width="0dp"
-        android:layout_height="4dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginBottom="112dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toBottomOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="16dp"
         android:text="Elige Salsas"
         android:textColor="#7F8C8D"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/textView13"
-        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="33dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginBottom="133dp"
         android:text="Salsa 1"
         android:textColor="#7F8C8D"
+        app:layout_constraintBottom_toTopOf="@+id/textView17"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-
-    <View
-        android:id="@+id/divider2"
-        android:layout_width="0dp"
-        android:layout_height="4dp"
-        android:layout_marginTop="85dp"
-        android:layout_marginBottom="85dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toBottomOf="@+id/textView19"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <TextView
         android:id="@+id/textView14"
@@ -94,46 +74,23 @@
 
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:text="Salsa 1"
-        android:textColor="#7F8C8D"
-        app:layout_constraintBottom_toTopOf="@+id/divider2"
-        app:layout_constraintEnd_toEndOf="@+id/divider2"
-        app:layout_constraintStart_toStartOf="@+id/divider2" />
-
-
-    <View
-        android:id="@+id/divider4"
-        android:layout_width="0dp"
-        android:layout_height="4dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toBottomOf="@+id/checkBoxAdicion2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBoxAdicion2" />
-
-    <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="26dp"
         android:text="Bebidas"
         android:textColor="#7F8C8D"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/divider1"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxBebida1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="16dp"
         android:text="Adicion 2"
         android:textColor="#7F8C8D"
         app:layout_constraintStart_toStartOf="@+id/textView19"
@@ -143,45 +100,47 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="37dp"
         android:text="Adiciones"
         android:textColor="#7F8C8D"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxAdicion2"
+        app:layout_constraintEnd_toStartOf="@+id/checkBoxAdicion1" />
 
     <CheckBox
         android:id="@+id/checkBoxAdicion2"
         android:layout_width="0dp"
-        android:layout_height="31dp"
+        android:layout_height="30dp"
         android:layout_marginStart="14dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="103dp"
         android:layout_marginEnd="14dp"
-        android:layout_marginBottom="22dp"
+        android:layout_marginBottom="102dp"
         android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button2"
         app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/checkBoxAdicion1" />
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="142dp"
         android:text="Adicion 1"
         android:textColor="#7F8C8D"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="16dp"
         android:text="Bebida 2"
         android:textColor="#7F8C8D"
         app:layout_constraintStart_toStartOf="@+id/textView16"
@@ -191,47 +150,49 @@
         android:id="@+id/checkBoxBebida1"
         android:layout_width="0dp"
         android:layout_height="31dp"
-        android:layout_marginTop="157dp"
-        android:layout_marginBottom="157dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginBottom="103dp"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="@+id/checkBoxAdicion2"
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
         app:layout_constraintEnd_toEndOf="@+id/checkBoxBebida2"
         app:layout_constraintStart_toStartOf="@+id/checkBoxBebida2"
-        app:layout_constraintTop_toTopOf="@+id/textView9" />
+        app:layout_constraintTop_toTopOf="@+id/textView13" />
 
     <CheckBox
         android:id="@+id/checkBoxAdicion1"
         android:layout_width="0dp"
-        android:layout_height="31dp"
-        android:layout_marginTop="55dp"
-        android:layout_marginBottom="56dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="6dp"
         android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxAdicion2"
         app:layout_constraintEnd_toEndOf="@+id/checkBoxAdicion2"
         app:layout_constraintStart_toStartOf="@+id/checkBoxAdicion2"
-        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <CheckBox
         android:id="@+id/checkBoxBebida2"
         android:layout_width="0dp"
         android:layout_height="31dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginBottom="89dp"
         android:text=""
-        app:layout_constraintBottom_toBottomOf="@+id/divider2"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBoxAdicion1"
         app:layout_constraintEnd_toEndOf="@+id/checkBoxAdicion1"
         app:layout_constraintStart_toStartOf="@+id/checkBoxAdicion1"
-        app:layout_constraintTop_toTopOf="@+id/checkBoxBebida1" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxSalsa2" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginBottom="196dp"
         android:text="Bebida 1"
         android:textColor="#7F8C8D"
-        app:layout_constraintStart_toStartOf="@+id/textView15"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <Button
         android:id="@+id/button2"
@@ -262,7 +223,7 @@
         android:layout_width="0dp"
         android:layout_height="31dp"
         android:layout_marginTop="21dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="23dp"
         android:text=""
         app:layout_constraintBottom_toBottomOf="@+id/checkBoxSalsa2"
         app:layout_constraintEnd_toEndOf="@+id/checkBoxSalsa2"
@@ -273,12 +234,12 @@
         android:id="@+id/checkBoxSalsa2"
         android:layout_width="0dp"
         android:layout_height="31dp"
-        android:layout_marginTop="126dp"
-        android:layout_marginBottom="126dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="44dp"
         android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxBebida1"
         app:layout_constraintEnd_toEndOf="@+id/checkBoxBebida1"
         app:layout_constraintStart_toStartOf="@+id/checkBoxBebida1"
-        app:layout_constraintTop_toTopOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

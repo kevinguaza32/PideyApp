@@ -7,6 +7,7 @@ public class RegistroRestaurante {
     private String telefono;
     private String email;
     private String contraseña;
+    private String terminoAceptacion;
 
     public RegistroRestaurante () {
 
@@ -53,6 +54,15 @@ public class RegistroRestaurante {
         this.contraseña = contraseña;
     }
 
+    public String getTerminoAceptacion() {
+        return terminoAceptacion;
+    }
+
+    public void setTerminoAceptacion(String terminoAceptacion) {
+        this.terminoAceptacion = terminoAceptacion;
+    }
+
+
     @Override
     public String toString() {
         return "RegistroRestaurante{" +
@@ -61,6 +71,7 @@ public class RegistroRestaurante {
                 ", telefono='" + telefono + '\'' +
                 ", email='" + email + '\'' +
                 ", contraseña='" + contraseña + '\'' +
+                ", terminoAceptacion='" + terminoAceptacion + '\'' +
                 '}';
     }
 }
